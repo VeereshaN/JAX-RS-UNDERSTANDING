@@ -1,4 +1,12 @@
 # JAX-RS
+
+<p>
+Above project compiles but will not work as expected becauese we have only Jax-rs jar which only specification, there no definition to to those methos 
+we need to use framework which implemented. This shows JAX-RS is just specification not implementation. 
+</p>
+
+
+
 ```js
 What is REST ?
 Representational State Transfer (REST) is an architectural style that defines a set of constraints to be used for creating web services.These constraints restrict the ways that the server can process and respond to client requests so that, by operating within these constraints, the service gains desirable non-functional properties, such as performance, scalability, simplicity, modifiability, visibility, portability, and reliability.
