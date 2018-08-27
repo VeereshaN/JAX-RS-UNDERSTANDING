@@ -5,19 +5,20 @@ Representational State Transfer (REST) is an architectural style that defines a 
 If a service violates any of the required constraints, it cannot be considered RESTful.
 
 ```
-
+```js
 # REST Architectural constraints 
-<p>
-* Client–server architecture
-* Statelessness
-* Cacheability
-* Layered system
-* Code on demand
-* Uniform interface 
-</p> 
+
+### Client–server architecture
+### Statelessness
+### Cacheability
+### Layered system
+### Code on demand
+### Uniform interface 
+```
 
 ```js
-What is JAX-RS ?
+# What is JAX-RS ?
+
 JAX-RS (Java Api for Restful web Services) this provides specifications about how those 6 constrains be implemeted. It only gives specifications just like interface. It does not provide any servlets it only gives inforamtions about how Architectural constraints  must be implemented. Some framework which implemented JAX-RS is Jersey, RESTEasy, Apache CFX these frameworks apart from providing the implemetation to JAX-RS they also provide Servlets.
 
 ```
