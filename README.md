@@ -34,7 +34,7 @@ JAX-RS is an specification (just a definition) and Jersey is a JAX-RS implementa
 Jersey just a interface to use JAX-rs in more easier way. JAX-RS dont provided servlet but Jersey does. Jersey provides a library to implement Restful webservices in a Java servlet container, Jersey provides a servlet implementation which scans predefined classes to identify RESTful resources. In your web.xml configuration file your register this servlet for your web application.
 
 
-JAX-RS is a specification (which basically tells what to implement/follow) and Jersey is an implementation (which means how those specifications should be implemented). We can have multiple implementations for a Specification. We have libs for JAX-RS because we can use JAX-RS API's in your code so that in future if you change your implementation (in this case Jersey to something else) you code will still work fine. You can relate it with your interface and implementation class.
+JAX-RS is a specification (which basically tells what to implement/follow) and Jersey is an implementation (which means how those specifications should be implemented). We can have multiple implementations for a Specification. We have libs for JAX-RS because we can use JAX-RS APIs in your code so that in future if you change your implementation (in this case Jersey to something else) you code will still work fine. You can relate it with your interface and implementation class.
 
 
 ```
